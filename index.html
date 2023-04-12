@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+<body>
+    <div class="container">
+        <div class="form_container">
+            <form class="form_window" method="POST">
+                <label class="form_label">Введите номер телефона</label>
+                    <span class="form_text">Мы отправим вам код на указанный номер для проверки телефона</span>
+                <input type="tel" class="form_input" id="phone" name="phone" placeholder="+7">
+                <div id="recaptcha-container"></div>
+                <button type="button" class="form_button" id="SignUp">Далее</button>
+                    <span class="form_text">При регистрации и входе вы соглашаетесь с <a class="form_href">условиями использования Мигрант Assistant и политики обработки данных</a></span>
+            </form>
+            
+        </div>
+    </div>
+    <script type="module" src="/src/index.js"></script>
+</body>
+
+</html>
